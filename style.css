@@ -1,0 +1,53 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.signature-container {
+  background-color: #fff;
+  display: flex;
+  flex-direction: row;
+  gap: 16px;
+}
+
+.signature-left {
+  width: 150px;
+  height: auto;
+  /* border: 1px solid #000; */
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.signature-left img {
+  width: 100%;
+  height: auto;
+}
+
+.signature-right--text-header {
+  border-bottom: 3px solid #000;
+}
+
+.signature-right--text-header h3 {
+  font-size: 16px;
+  margin: 0 0;
+  padding: 0 0;
+  padding-bottom: 8px;
+}
+
+.signature-right--text-content {
+  display: flex;
+  flex-direction: column;
+  gap: 0px;
+  margin-top: 10px;
+}
+
+.signature-text-list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+  font-size: 10px;
+  margin: 0 0;
+  padding: 0 0;
+  text-decoration: none;
+  cursor: pointer;
+}
